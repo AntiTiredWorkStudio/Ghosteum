@@ -1,0 +1,33 @@
+{
+	"title": "王平煤矿",
+	"x": 115.994173,
+	"y": 39.975178,
+	"description": "王平煤矿",
+	"content":[
+		{
+			"src": "../gfImg/wpmk/01.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/02.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/03.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/04.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/05.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/06.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/07.jpg",
+			"text": "王平煤矿"
+		},{
+			"src": "../gfImg/wpmk/08.jpg",
+			"text": "王平煤矿"
+		}
+	]
+}

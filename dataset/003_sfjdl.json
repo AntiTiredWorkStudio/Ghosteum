@@ -1,0 +1,30 @@
+{
+	"title": "福绥境大楼",
+	"x": 116.368042,
+	"y": 39.932321,
+	"description": "福绥境大楼",
+	"content":[
+		{
+			"src": "../gfImg/fsjdl/01.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/02.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/03.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/04.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/05.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/06.jpg",
+			"text": "福绥境大楼"
+		},{
+			"src": "../gfImg/fsjdl/07.jpg",
+			"text": "福绥境大楼"
+		}
+	]
+}

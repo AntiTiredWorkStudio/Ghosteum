@@ -1,0 +1,33 @@
+{
+	"title": "吉安所右巷",
+	"x": 116.40641,
+	"y": 39.935056,
+	"description": "吉安所右巷",
+	"content":[
+		{
+			"src": "../gfImg/jasyx/01.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/02.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/03.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/04.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/05.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/06.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/07.jpg",
+			"text": "吉安所右巷"
+		},{
+			"src": "../gfImg/jasyx/08.jpg",
+			"text": "吉安所右巷"
+		}
+	]
+}
