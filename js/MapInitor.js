@@ -32,7 +32,8 @@ function Init(){
 	InitMarker();
 	InitGallery();
 	InitComponent();
-	self.setInterval("Geolocation()",1000);
+	Geolocation();
+	//self.setInterval("Geolocation()",1000);
 	initMapStyle();
 }
 
