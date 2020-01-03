@@ -1,0 +1,96 @@
+<html><!--<![endif]--><head>
+        <title>鬼坊</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+
+        <script src="assets/js/modernizr.js"></script>
+
+    </head>
+    <body id="body" style="font-family:'Microsoft YaHei'  'WenQuanYi Micro Hei'  STXihei  sans-serif  monospace;font-size: 11px;">
+        
+        <!-- Header area -->
+        <header id="header" style="height: 100%;">
+            <div class="center text-center" >
+                <h3 class="bigheadline">鬼坊探灵</h3>
+                <h4 class="subheadline">10.31日 万圣节 敬请期待</h4>
+                <h4 class="subheadline" id="id_label" style="font-size:0.5em;"></h4>
+            </div>
+            <div class="bottom">
+                <a data-scroll="" href="#contact" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+            </div>
+        </header>
+        <section id="contact" class="mapWrap">
+            
+            <div id="contact-area">
+                <div class="container" style="height:100%">
+                    <h3 class="block_title">王平探险夜</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="moreDetails">
+                                <h2 class="con-title">游戏规则</h2>
+                                <p>步骤一：玩家进入场地后，得到丝巾，自己用手机扫丝巾上的二维码获得自己的组队身份。</p>
+								<p>步骤二：等所有玩家将自己的身份丝带佩戴好后，游戏将自动开始，玩家需要通过推理，洞察来决定是否撕掉对方玩家的丝巾，如果撕的是对方组，则对方玩家被淘汰，反之自己被淘汰。</p>
+								<p>步骤三：最后剩下来的玩家为赢家，将获得奖励。</p>
+                                <ul class="address">
+                                    <li><i class="pe-7s-map-marker"></i><span>门头沟区王平镇王平大街5号<br>北京市</span></li>
+                                    <li><i class="pe-7s-phone"></i><span>胆小鬼热线</span></li>
+                                    <li><span><a href="tel:15810208082">+86-15810208082</a></span></li>
+                                    <li><i class="pe-7s-back"></i><span><a href="#">向上</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        
+        <script src="assets/js/jquery.actual.min.js"></script>
+        <script src="assets/js/smooth-scroll.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/script.js"></script>
+		<script>
+			function GetRequest() {
+				var url = location.search; //获取url中"?"符后的字串 
+				var theRequest = new Object();
+				if (url.indexOf("?") != -1) {
+					var str = url.substr(1);
+					strs = str.split("&");
+					for (var i = 0; i < strs.length; i++) {
+						theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+					}
+				}
+				return theRequest;
+			}
+			$(document).ready(function () {
+				
+				var Request = new Object();
+				Request = GetRequest();
+				var val= Request["id"];  
+//				alert(val);
+				if(val=="undefined"){
+					$("#id_label").html("");
+				}else{
+					$("#id_label").html("当前id:"+val);
+				}
+			});
+		</script>
+</body></html>
