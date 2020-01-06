@@ -118,12 +118,14 @@ function Init(){
 		div.appendChild(document.createTextNode(this.labelText));
 		// 设置样式
 		div.style.cursor = "pointer";
-		div.style.border = "2px solid yellowgreen";
-		div.style.backgroundColor = "#bbbbbb";
+		div.style.border = "2px solid #222267";
+		div.style.backgroundColor = "#000045";
 		div.style.width = this.width+"px";
 		div.style.height = this.height+"px";
 		div.style.lineHeight = div.style.height;
 		div.style.fontSize = "14px";
+		div.style.color = "#ffffff";
+		div.style.fontWeight = "bold";
 		//console.log(div.style);
 		div.style.textAlign = "center";
 		
@@ -248,17 +250,32 @@ function Init(){
 		map.addOverlay(tMarker);               // 将标注添加到地图中
 		
 		
+		
+		var tIcon = new BMap.Icon("assets/images/Logo.png",
+			new BMap.Size(40,40), // 视窗大小
+　　　　	{
+　　　　　　	imageSize: new BMap.Size(40,40), // 引用图片实际大小
+　　　　　　	imageOffset:new BMap.Size(0,0)  // 图片相对视窗的偏移
+　　　　　　}
+		); 
+		tMarker.setIcon(tIcon);
+		
 		var opts = {
 		  position : tPoint,    // 指定文本标注所在的地理位置
 		  offset   : new BMap.Size(15, -30)    //设置文本偏移量
 		}
 		var label = new BMap.Label(title, opts);  // 创建文本标注对象
 			label.setStyle({
-				 color : "black",
+				 color : "white",
 				 fontSize : "12px",
 				 height : "20px",
 				 lineHeight : "20px",
-				 fontFamily:"微软雅黑"
+				 fontFamily:"微软雅黑",
+				backgroundColor :"#000045",
+					padding:"2px",
+					borderRadius:"20%",
+				border :"3px solid #222267",
+					fontWeight :"bold"
 			 });
 		map.addOverlay(label);  
 		
@@ -276,9 +293,9 @@ function Init(){
 			panel : "panel", //检索结果面板
 			enableAutoPan : true, //自动平移
 			searchTypes :[
-				BMAPLIB_TAB_FROM_HERE, //从这里出发
-				BMAPLIB_TAB_TO_HERE, //到这里去
-				BMAPLIB_TAB_SEARCH   //周边检索
+				//BMAPLIB_TAB_FROM_HERE, //从这里出发
+				//BMAPLIB_TAB_TO_HERE, //到这里去
+				//BMAPLIB_TAB_SEARCH   //周边检索
 			]
 		});
 		
