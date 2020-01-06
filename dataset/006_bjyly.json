@@ -1,0 +1,27 @@
+{
+	"title": "北京游乐园",
+	"x": 116.441863,
+	"y": 39.88211,
+	"description": "北京游乐园",
+	"content":[
+		{
+			"src": "../gfImg/bjyly/01.jpg",
+			"text": "北京游乐园"
+		},{
+			"src": "../gfImg/bjyly/02.jpg",
+			"text": "北京游乐园"
+		},{
+			"src": "../gfImg/bjyly/03.jpg",
+			"text": "北京游乐园"
+		},{
+			"src": "../gfImg/bjyly/04.jpg",
+			"text": "北京游乐园"
+		},{
+			"src": "../gfImg/bjyly/05.jpg",
+			"text": "北京游乐园"
+		},{
+			"src": "../gfImg/bjyly/06.jpg",
+			"text": "北京游乐园"
+		}
+	]
+}
