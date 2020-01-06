@@ -31,15 +31,21 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #e66f69;
+	color: #bbb;
 	transition: 0.4s ease all;
 	outline: none;
+	text-decoration:underline;
 }
 a:hover,a:active,a:focus{
 	text-decoration: none;
 	color: #e66f69;
 	opacity: 0.9;
 	outline: none;
+}
+.spanSubTitle {
+    color: #fff;
+    font-size: 16px;
+	font-weight:bold;
 }
 .btn {
     color: #fff;
